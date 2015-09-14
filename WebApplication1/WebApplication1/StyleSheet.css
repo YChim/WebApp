@@ -1,0 +1,137 @@
+﻿body {
+    width:auto;
+    background-image:url("../images/background.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+#headbanner {
+    width:100%;
+    border:none;
+    display:inline-block;
+}
+
+#hd {
+    margin:10px 10px 20px 43%;
+    color:white;
+    font-size:60px;
+}
+
+#logo {
+    width:8%;
+    height:8%;
+    margin-left:30px;
+    margin-top:5px;
+}
+
+/*image Slider*/
+* {
+    padding: 0;
+    margin:0;
+}
+
+img {
+    max-width:100%;
+}
+
+.cycle-slideshow {
+    width:60%;
+    display:block;
+    margin:auto;
+}
+
+.cycle-prev, .cycle-next {
+    font-size:400%;
+    color:#fff;
+    display:block;
+    position:absolute;
+    top:50%;
+    margin-top:-16px;
+    z-index:9999;
+    cursor:pointer;
+}
+
+.cycle-prev {
+    left: 10%;
+}
+
+.cycle-next {
+    right:10%;
+}
+
+.cycle-pager {
+    width:100%;
+    text-align:center;
+    display:block;
+    position:absolute;
+    bottom:20px;
+    z-index:9999;
+    cursor:pointer;
+}
+
+.cycle-pager span {
+    text-indent:100%;
+    width:12px;
+    height:12px;
+    display:inline-block;
+    border: 1px solid #fff;
+    border-radius:50%;
+    margin: 0 10px;
+
+}
+
+.cycle-pager .cycle-pager-active {
+    background: #fff;
+}
+
+/*MENU*/
+
+.myMenu {
+	float:right;
+    margin-top:50px;
+}
+
+.myMenu li {
+	list-style:none;
+	float:right;
+	font:14px Arial, Helvetica, sans-serif #111;
+}
+
+.myMenu li a:link, .myMenu li a:visited {
+	display:block;
+	text-decoration:none;
+	background-color:black;
+	padding: 1em 2.5em;
+	margin:0;
+	border-right: 1px solid #fff;
+	color:white;
+}
+
+.myMenu li a:hover {
+	background-color:gray;	
+}
+
+/*style the sub menu*/
+.myMenu li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+.myMenu li ul li {
+	display:inline;
+	float:none;
+}
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+	background-color:black;
+	width:auto;
+}
+
+.myMenu li ul li a:hover {
+	background-color:gray;	
+}
+
