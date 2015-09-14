@@ -36,7 +36,7 @@
         <img id ="logo" src="../images/logo.jpg" />
 
         <ul class="myMenu">
-	    <li><a href="#">menu item 1</a></li>
+	    <li><a href="About_Us.aspx">About Us.</a></li>
         <li><a href="#">menu item 2</a>
     	    <ul>
         	    <li><a href="#">sub menu item 1</a></li>
@@ -51,7 +51,7 @@
             </ul>
         </li>
         <li><a href="#">menu item 4</a></li>
-        <li><a href="#">menu item 5</a></li>
+        <li><a href="Index.aspx">Home</a></li>
     </ul>
      
 
