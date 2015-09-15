@@ -6,3 +6,11 @@ C:\Users\Miguel\Desktop\Working\WebApplication1\obj\Debug\Group_Project.vbproj.G
 C:\Users\Miguel\Desktop\Working\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\Miguel\Desktop\Working\WebApplication1\obj\Debug\WebApplication1.xml
 C:\Users\Miguel\Desktop\Working\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\swgc\Documents\web Application\WebApplication1\bin\WebApplication1.dll
+C:\Users\swgc\Documents\web Application\WebApplication1\bin\WebApplication1.pdb
+C:\Users\swgc\Documents\web Application\WebApplication1\bin\WebApplication1.xml
+C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\WebApplication1.Resources.resources
+C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\Group_Project.vbproj.GenerateResource.Cache
+C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\WebApplication1.xml
+C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\WebApplication1.pdb

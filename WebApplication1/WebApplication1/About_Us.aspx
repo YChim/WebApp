@@ -7,11 +7,12 @@
 
     <div style="
         font-family:Garamond;
+        font-size:20px;
         text-align: center;
 	    padding: 5px;
 	    border-radius: 20px;
 	    border: 1px solid black;
-        background-color: white;">
+        background-color: white; width:80%; margin:auto;">
 
         <h1><u><b>About Us</b></u></h1>
 

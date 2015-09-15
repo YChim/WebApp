@@ -82,9 +82,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About_Us.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="Fashion.aspx" />
+    <Content Include="Gossip.aspx" />
     <Content Include="Index.aspx" />
-    <Content Include="next.aspx" />
-    <Content Include="StyleSheet.css" />
+    <Content Include="Kids.aspx" />
+    <Content Include="Motoring.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Science.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,11 +100,46 @@
       <DependentUpon>About_Us.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Fashion.aspx.designer.vb">
+      <DependentUpon>Fashion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fashion.aspx.vb">
+      <DependentUpon>Fashion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Gossip.aspx.designer.vb">
+      <DependentUpon>Gossip.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gossip.aspx.vb">
+      <DependentUpon>Gossip.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Index.aspx.designer.vb">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.vb">
       <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Kids.aspx.designer.vb">
+      <DependentUpon>Kids.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kids.aspx.vb">
+      <DependentUpon>Kids.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Motoring.aspx.designer.vb">
+      <DependentUpon>Motoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Motoring.aspx.vb">
+      <DependentUpon>Motoring.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -121,13 +161,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="next.aspx.designer.vb">
-      <DependentUpon>next.aspx</DependentUpon>
+    <Compile Include="Profile.aspx.designer.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="next.aspx.vb">
-      <DependentUpon>next.aspx</DependentUpon>
+    <Compile Include="Profile.aspx.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Science.aspx.designer.vb">
+      <DependentUpon>Science.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Science.aspx.vb">
+      <DependentUpon>Science.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Secrecy.vb" />
     <Compile Include="Site1.Master.designer.vb">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
@@ -161,6 +209,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="style\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

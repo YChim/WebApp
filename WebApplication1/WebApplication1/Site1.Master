@@ -7,10 +7,11 @@
     <title>SCRIPT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="../style/ScriptSheet.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
 
+   
     <script type="text/javascript">
         $(document).ready(function () {
             $('.myMenu > li').bind('mouseover', openSubMenu);
@@ -25,7 +26,9 @@
             };
 
         });
-</script>
+    </script>
+
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -35,7 +38,7 @@
         
         <img id ="logo" src="../images/logo.jpg" />
 
-        <ul class="myMenu">
+        <ul class="myMenu" style="float:right; margin-top:80px;">
 	    <li><a href="About_Us.aspx">About Us.</a></li>
         <li><a href="#">menu item 2</a>
     	    <ul>
@@ -43,23 +46,28 @@
                 <li><a href="#">sub menu item 2</a></li>
             </ul>
         </li>
-        <li><a href="#">menu item 3</a>
+        <li><a href="#">Catagories</a>
            <ul>
-        	    <li><a href="#">sub menu item 1</a></li>
-                <li><a href="#">sub menu item 2</a></li>
-                <li><a href="#">sub menu item 3</a></li>
+        	    <li><a href="Science.aspx">Science</a></li>
+                <li><a href="Motoring.aspx">Motoring</a></li>
+                <li><a href="Fashion.aspx">Fashion</a></li>
+                <li><a href="Gossip.aspx">Gossip</a></li>
+                <li><a href="Kids.aspx">Kids</a></li>
             </ul>
         </li>
-        <li><a href="#">menu item 4</a></li>
+        <li><a href="#">Catalog</a></li>
         <li><a href="Index.aspx">Home</a></li>
     </ul>
-     
 
-    
     </div>
+
+        <hr style="color:white" />
+        <div id="User" style="margin-right:70px; margin-top:5px; height: 27px;" runat="server"></div>
     
 
     <h1 id ="hd">SCRIPT</h1>
+
+    
 
     <form id="form1" runat="server">
     <div>
