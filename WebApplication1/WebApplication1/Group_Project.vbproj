@@ -90,6 +90,7 @@
     <Content Include="Motoring.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="Science.aspx" />
+    <Content Include="style\ScriptSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -210,9 +211,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="style\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

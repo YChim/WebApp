@@ -14,3 +14,11 @@ C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\Group_Project.
 C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\WebApplication1.xml
 C:\Users\swgc\Documents\web Application\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\WebApplication1\bin\WebApplication1.dll
+D:\WebApplication1\bin\WebApplication1.pdb
+D:\WebApplication1\bin\WebApplication1.xml
+D:\WebApplication1\obj\Debug\WebApplication1.Resources.resources
+D:\WebApplication1\obj\Debug\Group_Project.vbproj.GenerateResource.Cache
+D:\WebApplication1\obj\Debug\WebApplication1.dll
+D:\WebApplication1\obj\Debug\WebApplication1.xml
+D:\WebApplication1\obj\Debug\WebApplication1.pdb

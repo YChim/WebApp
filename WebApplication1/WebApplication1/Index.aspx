@@ -9,7 +9,8 @@
 
       <script type="text/javascript">
 
-            $('#slider').cycle({
+          $('#slider').cycle({
+
                 fx: 'scrollHorz',
                 next: '.cycle-next',
                 prev: '.cycle-prev',
