@@ -1,0 +1,171 @@
+body {
+    width:auto;
+    background-image:url("../images/background.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+#headbanner {
+    width:100%;
+    border:none;
+    display:inline-block;
+}
+
+#hd {
+    margin:10px 10px 20px 43%;
+    color:white;
+    font-size:60px;
+}
+
+#logo {
+    width:8%;
+    height:8%;
+    margin-left:30px;
+    margin-top:5px;
+}
+
+/*MENU*/
+
+.myMenu li {
+	list-style:none;
+	float:right;
+	font:14px Arial, Helvetica, sans-serif #111;
+}
+
+.myMenu li a:link, .myMenu li a:visited {
+	display:block;
+	text-decoration:none;
+	background-color:black;
+	padding: 0.5em 2em;
+	margin:0;
+	color:white;
+}
+
+.myMenu li a:hover {
+	background-color:gray;	
+}
+
+/*style the sub menu*/
+.myMenu li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+.myMenu li ul li {
+	display:inline;
+	float:none;
+}
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+	background-color:black;
+	width:auto;
+}
+
+.myMenu li ul li a:hover {
+	background-color:gray;	
+}
+
+.body {
+    font-size:18px;
+    text-align: center;
+	padding: 5px;
+	border-radius: 20px;
+	border: 1px solid black;
+    background-color: white; 
+    width:75%; 
+    margin:auto;
+}
+
+/*image slider */
+
+#hero {
+    width:1200px;
+    height:780px;
+    display :block;
+    position:relative;
+    margin:auto;
+}
+
+#slider {
+    width:1200px;
+    height:780px;
+    display :block;
+    position:absolute;
+    overflow:hidden;
+}
+
+.info {
+    width:1200px;
+    height:120px;
+    display:block;
+    bottom:780px;
+    position:relative;
+    background-color :rgba(0, 0, 0, .2);
+    z-index:99;
+
+}
+
+.info h2 {
+    font-family:sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    color:blue;
+    padding: 15px 0 0 20px;
+}
+
+.info p {
+    font-family:sans-serif;
+    font-size:18px;
+    font-weight:lighter;
+    color:blue;
+    padding: 0 0 0 20px;
+}
+
+.cycle-prev, .cycle-next {
+    font-size:400%;
+    color:blue;
+    display:block;
+    position:absolute;
+    top:50%;
+    margin-top:-16px;
+    z-index:9999;
+    cursor:pointer;
+}
+
+.cycle-prev {
+    left: 10%;
+}
+
+.cycle-next {
+    right:10%;
+}
+
+#pager {
+    width:100%;
+    text-align:center;
+    display:block;
+    position:absolute;
+    z-index:9999;
+    cursor:pointer;
+    bottom: 30px;
+}
+
+#pager a {
+    font-size:.0em;
+    background:transparent;
+    width:10px;
+    height:10px;
+    display:inline-block;
+    position:relative;
+    border: 1px solid blue;
+    margin :10px;
+    border-radius:50%;
+}
+
+#pager a.activeSlide {
+    background-color: blue;
+}
