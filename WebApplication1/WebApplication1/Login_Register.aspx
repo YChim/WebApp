@@ -24,7 +24,7 @@
                     <asp:Label ID="Label1" runat="server" Text="Username:"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtUser" runat="server" Height="26px" Width="282px"></asp:TextBox>
+                    <asp:TextBox ID="txtUser" runat="server" Font-Size="20px" Height="26px" Width="282px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -32,7 +32,7 @@
                     <asp:Label ID="label2" runat="server" Text="Password:"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtpass" Type="password" runat="server" Height="26px" Width="282px"></asp:TextBox>
+                    <asp:TextBox ID="txtpass" Type="password" runat="server" Font-Size="20px" Height="26px" Width="282px"></asp:TextBox>
                 </td>
             </tr>
             <tr>

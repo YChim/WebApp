@@ -13,7 +13,7 @@
                     <asp:Label ID="Label1" runat="server" Text="Old password: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtOld" Type="password" runat="server" Height="27px" Width="187px"></asp:TextBox>
+                    <asp:TextBox ID="txtOld" Type="password" runat="server" Font-Size="17px" Height="27px" Width="187px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -21,7 +21,7 @@
                     <asp:Label ID="Label2" runat="server" Text="New password: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtnew" Type="password" runat="server" Height="27px" Width="187px"></asp:TextBox>
+                    <asp:TextBox ID="txtnew" Type="password" runat="server" Font-Size="17px" Height="27px" Width="187px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -29,7 +29,7 @@
                     <asp:Label ID="Label3" runat="server" Text="Confirm password: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtCon" Type="password" runat="server" Height="27px" Width="187px"></asp:TextBox>
+                    <asp:TextBox ID="txtCon" Type="password" runat="server" Font-Size="17px" Height="27px" Width="187px"></asp:TextBox>
                 </td>
             </tr>
             <tr>

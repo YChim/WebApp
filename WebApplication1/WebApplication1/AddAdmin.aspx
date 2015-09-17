@@ -17,7 +17,7 @@
                     <asp:Label ID="Label1" runat="server" Text="First Name: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtfirst" runat="server" Height="25px" Width="197px"></asp:TextBox>
+                    <asp:TextBox ID="txtfirst" runat="server" Font-Size="17px" Height="25px" Width="197px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -25,7 +25,7 @@
                     <asp:Label ID="Label2" runat="server" Text="Surname: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtlast" runat="server" Height="25px" Width="197px"></asp:TextBox>
+                    <asp:TextBox ID="txtlast" runat="server" Font-Size="17px" Height="25px" Width="197px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -33,7 +33,7 @@
                     <asp:Label ID="Label3" runat="server" Text="Email address: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtEmail" runat="server" Height="25px" Width="197px"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail" runat="server" Font-Size="17px" Height="25px" Width="197px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -41,7 +41,7 @@
                     <asp:Label ID="Label4" runat="server" Text="Username: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtuser" runat="server" Height="25px" Width="197px"></asp:TextBox>
+                    <asp:TextBox ID="txtuser" runat="server" Font-Size="17px" Height="25px" Width="197px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -49,7 +49,7 @@
                     <asp:Label ID="Label5" runat="server" Text="Password: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtpassword" runat="server" Type="password"  Height="25px" Width="197px"></asp:TextBox>
+                    <asp:TextBox ID="txtpassword" runat="server" Type="password" Font-Size="17px"  Height="25px" Width="197px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -57,7 +57,7 @@
                     <asp:Label ID="Label6" runat="server" Text="Confirm password: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtcon" runat="server" Type="password"  Height="25px" Width="197px"></asp:TextBox>
+                    <asp:TextBox ID="txtcon" runat="server" Type="password" Font-Size="17px" Height="25px" Width="197px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
