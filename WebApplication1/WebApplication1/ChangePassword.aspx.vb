@@ -17,10 +17,19 @@ Public Class ChangePassword
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If txtOld.Text = "" Then
+            txtCon.Text = ""
+            txtnew.Text = ""
+            txtOld.Text = ""
             Exit Sub
         ElseIf txtnew.Text = "" Then
+            txtCon.Text = ""
+            txtnew.Text = ""
+            txtOld.Text = ""
             Exit Sub
         ElseIf txtCon.Text = "" Then
+            txtCon.Text = ""
+            txtnew.Text = ""
+            txtOld.Text = ""
             Exit Sub
         End If
 
@@ -29,7 +38,7 @@ Public Class ChangePassword
         Dim conPassword As String = HashPassword(txtCon.Text)
         command = New SqlCommand("SELECT * FROM [User] WHERE UserName = @user AND PassWord = @pass", connection)
         command.CommandType = CommandType.Text
-        command.Parameters.AddWithValue("@user", Session("Username"))
+        command.Parameters.AddWithValue("@user", Session("username"))
         command.Parameters.AddWithValue("@pass", password)
         Dim ID As Integer
         connection.Open()
@@ -53,6 +62,9 @@ Public Class ChangePassword
         End If
 
         connection.Close()
+        txtCon.Text = ""
+        txtnew.Text = ""
+        txtOld.Text = ""
 
     End Sub
 End Class
