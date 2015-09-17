@@ -12,5 +12,5 @@ Option Explicit On
 
 
 
-Partial Public Class _next
+Partial Public Class ProductManagement
 End Class

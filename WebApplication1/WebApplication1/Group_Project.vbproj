@@ -82,13 +82,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About_Us.aspx" />
+    <Content Include="AddAdmin.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="Fashion.aspx" />
     <Content Include="Gossip.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Kids.aspx" />
+    <Content Include="Login_Register.aspx" />
     <Content Include="Motoring.aspx" />
+    <Content Include="ProductManagement.aspx" />
     <Content Include="Profile.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Reports.aspx" />
     <Content Include="Science.aspx" />
     <Content Include="App_Data\Script.mdf" />
     <Content Include="App_Data\Script_log.ldf" />
@@ -101,6 +106,13 @@
     </Compile>
     <Compile Include="About_Us.aspx.vb">
       <DependentUpon>About_Us.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AddAdmin.aspx.designer.vb">
+      <DependentUpon>AddAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAdmin.aspx.vb">
+      <DependentUpon>AddAdmin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ChangePassword.aspx.designer.vb">
@@ -138,6 +150,13 @@
       <DependentUpon>Kids.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Login_Register.aspx.designer.vb">
+      <DependentUpon>Login_Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Register.aspx.vb">
+      <DependentUpon>Login_Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Motoring.aspx.designer.vb">
       <DependentUpon>Motoring.aspx</DependentUpon>
     </Compile>
@@ -164,11 +183,32 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ProductManagement.aspx.designer.vb">
+      <DependentUpon>ProductManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductManagement.aspx.vb">
+      <DependentUpon>ProductManagement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Profile.aspx.designer.vb">
       <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Profile.aspx.vb">
       <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.vb">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.vb">
+      <DependentUpon>Reports.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Science.aspx.designer.vb">

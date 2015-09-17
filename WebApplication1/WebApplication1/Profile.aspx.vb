@@ -8,11 +8,10 @@ Public Class Profile
     Private connection As SqlConnection
     Private command As SqlCommand
     Private reader As SqlDataReader
-    Private connectionString As String = ""
-    Private sql As String
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        connection = New SqlConnection(connectionString)
+        connection = New SqlConnection("Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Script.mdf;Integrated Security=True")
+
 
     End Sub
 

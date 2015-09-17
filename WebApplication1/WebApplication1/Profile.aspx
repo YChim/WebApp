@@ -3,9 +3,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-   <div class="body">
+   <div class="body" style ="width:50%">
 
-       <h1><u><b>Profile</b></u></h1>
+       <h1><b>Profile</b></h1>
 
        <div id="prof" runat="server"></div>
 
